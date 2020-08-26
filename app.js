@@ -39,7 +39,6 @@ function yukarı() {
 
 function süreyiBaslat() {
   if (!süreDoldu) {
-    console.log(süreDoldu);
     süre--;
     süreText.textContent = süre;
   } else {
